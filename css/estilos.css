@@ -16,6 +16,11 @@ div.encabezado{
    text-align: center;
 }
 
+div.encabezado img{
+   width: 100px;
+   position: absolute;
+   left: 0px;
+}
 div.menu ul,li,a{
    background-color: #a77e58;
    color: #ffffff;
