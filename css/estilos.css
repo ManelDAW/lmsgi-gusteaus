@@ -33,6 +33,9 @@ div.contenido{
    color: #5a3e36;
    font-family: 'Georgia', serif;
    font-size: 18px;
+   float: left;
+   width: 70%;
+   margin: 0;
 }
 
 div.sidebar{
@@ -40,6 +43,8 @@ div.sidebar{
    color: #5a3e36;
    font-family: 'Georgia', serif;
    font-size: 18px;
+   float: right;
+   width: 30%;
 }
 
 div.pie{
