@@ -8,8 +8,9 @@ div.encabezado{
    background: url(./../imgs/guesteaus.png);
    background-position: center;
    background-size: cover;
-   padding: 71px;
+   padding: 100px;
    background-color: #5a3e36;
+   color: #5a3e36;
    font-family: 'Georgia', serif;
    font-size: 36px;
    text-align: center;
@@ -42,9 +43,13 @@ div.sidebar{
 }
 
 div.pie{
-   background-color: #a77e58;
-   color: #ffffff;
+   background-color: #5a3e36;
+   color: #ecdcc6;
    font-family: 'Helvetica', sans-serif;
    font-size: 16px;
    text-align: center;
+}
+
+nav.contactos{
+   justify-content: center;
 }
