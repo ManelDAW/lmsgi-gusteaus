@@ -62,3 +62,44 @@ div.pie{
    font-size: 16px;
    text-align: center;
 }
+
+input[type='text'],
+input[type='email'],
+input[type='tel'] {
+    border: 1px solid #a77e58;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff8f0;
+}
+
+input[type='submit'],
+button {
+    background-color: #5a3e36;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer; 
+    border: none;
+}
+
+input[type='submit']:hover,
+button:hover {
+    background-color: #a77e58;
+}
+
+
+label {
+   font-size: 16px;
+   display: block;
+   margin-bottom: 5px; 
+}
+
+input:invalid,
+textarea:invalid {
+    border-color: #b90000;
+}
+
+input:required,
+textarea:required {
+    border-color: #a77e58;
+}
